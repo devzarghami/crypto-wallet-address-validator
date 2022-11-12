@@ -1,0 +1,19 @@
+{
+    "name": "walletAddressValidator",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "private": true,
+    "author": {
+        "name": "hassan zarghami",
+        "url": "https://github.com/devzarghami"
+    },
+    "main": "dist/main.js",
+    "scripts": {
+    },
+    "dependencies": {
+        "crc": "^4.1.1"
+    },
+    "devDependencies": {
+    }
+}
