@@ -1,7 +1,7 @@
 # crypto-wallet-address-validator
 The best package for validating the addresses of different wallets in the most famous blockchain networks such as Bitcoin, Tron, Ethereum, and Solana in **Node.js and browser**.
 
-###Dependencies
+### Dependencies
 Before using wallet-address-validator, you must install the following package. Because the Stellar network uses CRC
 > npm i crc
 
