@@ -55,11 +55,11 @@ import { validate } from './walletAddressValidator'
 
 var validate1 = validate('0xC8C5dED0aafAA04439FbE787B79DcAA62f152be8', 'USDT');
 
-console.log(chain);  // This will log 'ETH' to the console.
+console.log(validate1);  // This will log 'ETH' to the console.
 
 var validate2 = validate('TSro8NA6VwKTFtzb692BAv8qAjqg9Cid5Z', 'USDT');
 
-console.log(chain);  // This will log 'TRX' to the console.
+console.log(validate2);  // This will log 'TRX' to the console.
 ```
 
 **validate bitcoin wallet address**
