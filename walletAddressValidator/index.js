@@ -7,7 +7,7 @@ const validate = (address, symbol, chain = null, networkType = null) => {
   symbol = symbol.toUpperCase()
   chain = chain ? chain.toUpperCase() : null
 
-  const matchedCurrency = chain ? (currencies.filter((i) => i.validator === chain && i.symbol === symbol) || currencies.filter((i) => i.validator === chain)) : currencies.filter((i) => i.symbol === symbol)
+  const matchedCurrency = chain ? currencies.filter((i) => i.validator === chain && i.symbol === symbol || i.validator === chain) : currencies.filter((i) => i.symbol === symbol)
 
   for (const currency of matchedCurrency) {
     const validatorChain = validators[currency.validator]
